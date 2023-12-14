@@ -10,8 +10,8 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@500;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/Maincss.css">
-    <link rel="stylesheet" href="CSS/Home.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="CSS/Blog.css">
+    <title>Blog</title>
 </head>
 
 <body>
@@ -176,24 +176,89 @@
         </script>
     </header>
     <main>
-        <section class="home_main">
-            <div class="my__pic">
-                <img src="img/Mypicture.webp" alt="">
+        <div class="Blog__heading">
+            <h2>Articles on <a href="" class="text_bold decorate-none"> ReactJS </a>, <a href=""
+                    class="text_bold decorate-none text-green">NodeJS</a> and <a href=""
+                    class="text_bold decorate-none text-orang-blur">AWS</a></h2>
+        </div>
+        <div class="search_image">
+            <form action="">
+                <div class="search__bar">
+                    <div class="search_icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <input type="search" placeholder="Search by title.." name="" id="">
+                </div>
+            </form>
+        </div>
+        <section class="blog__grid">
+            <div class="bog1 Blog">
+                <img src="img/blog1.webp" alt="">
+                <div class="languges">
+                    <span>ReactJS</span>
+                    <span>AWS</span>
+                    <span>Javascript</span>
+                </div>
+                <div class="blog_title">All about Postman Collection</div>
+                <div class="blog_description">How to create and Export Postman API’s</div>
+                <div class="blog_date">November 14, 2023</div>
             </div>
-            <article>
-                <h1>Hi, I'm Mohammad Faisal</h1>
-                <h2>Software Engineer</h2>
-                <h4 class="dark:text-white">ReactJS | NodeJS | AWS</h4>
-                <button class="main_btn">
-                    <div class="px-3"> Know More </div>
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
-                        width="1em" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z">
-                        </path>
-                    </svg>
-                </button>
-            </article>
+            <div class="bog2 Blog">
+                <img width="400"  height="200" src="img/blog2.webp" alt="">
+                <div class="languges">
+                    <span id="green">NodeJS</span>
+                </div>
+                <div class="blog_title">Awesome Terminal Applications</div>
+                <div class="blog_description">This is a curated list of some useful terminal apps and how to use them.</div>
+                <div class="blog_date">November 12, 2023</div>
+            </div>
+            <div class="bog3 Blog">
+                <img src="img/blog3.webp" alt="">
+                <div class="languges">
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                </div>
+                <div class="blog_title">How To Choose Data Fetching Strategies In NextJS</div>
+                <div class="blog_description">Explained with real-world examples</div>
+                <div class="blog_date">November 10, 2023</div>
+            </div>
+            <div class="bog4 Blog">
+                <img src="img/blog4.webp" alt="">
+                <div class="languges">
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                </div>
+                <div class="blog_title">React useState hook from scratch</div>
+                <div class="blog_description">Let's learn the fundamentals of ReactJS</div>
+                <div class="blog_date">November 4, 2023</div>
+            </div>
+            <div class="bog5 Blog">
+                <img src="img/blog5.webp" alt="">
+                <div class="languges">
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                </div>
+                <div class="blog_title">The Greatest React Developer I Ever Met</div>
+                <div class="blog_description">We had our differences but still...</div>
+                <div class="blog_date">October 26, 2023</div>
+            </div>
+            <div class="bog6 Blog">
+                <img src="img/blog6.webp" alt="">
+                <div class="languges">
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                    <span>ReactJS</span>
+                </div>
+                <div class="blog_title">Single Table Design with DynamoDB</div>
+                <div class="blog_description">The anatomy of the single-table design approach. Is it any good?</div>
+                <div class="blog_date">October 5, 2023</div>
+            </div>
         </section>
     </main>
     <footer>
