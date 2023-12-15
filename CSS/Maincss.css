@@ -251,6 +251,9 @@ footer {
 }
 
 @media screen and (max-width: 424px) {
+    .footer_container p {
+        text-align: center;
+    }
     .for__semall {
         max-width: 229px;
 
