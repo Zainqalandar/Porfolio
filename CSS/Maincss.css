@@ -78,6 +78,9 @@ body {
     color: #6b7280;
     line-height: 20px;
 }
+.nav__ul li a:hover{
+    color: rgb(75 85 99);
+}
 
 .nav__ul svg {
     width: 15px;

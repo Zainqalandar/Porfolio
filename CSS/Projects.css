@@ -19,6 +19,7 @@
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     border-radius: 8px;
     max-width: 384px;
+    width: 384px;
     overflow: hidden;
 }
 .project__banner{
@@ -153,6 +154,9 @@
     --tw-bg-opacity: 1;
     background-color: rgb(255 241 242/var(--tw-bg-opacity));
 }
+#text-black{
+    color: black;
+}
 
 @media screen and (max-width: 1230px) {
     .project_detail_grid{
@@ -169,6 +173,13 @@
 @media screen and (max-width: 766px) {
     .project_detail_grid{
         padding: 8px 8px;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .project_detail_grid > div{
+        width: 100%;
+        max-width: 384px;
     }
     
 }
